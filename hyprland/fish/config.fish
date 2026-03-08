@@ -1,4 +1,6 @@
-source /usr/share/cachyos-fish-config/cachyos-config.fish
+if test -f /usr/share/cachyos-fish-config/cachyos-config.fish
+    source /usr/share/cachyos-fish-config/cachyos-config.fish
+end
 
 # nnn colors mapped to terminal palette slots so they follow pywal/kitty colors
 set -gx NNN_COLORS '#060d0b07'
